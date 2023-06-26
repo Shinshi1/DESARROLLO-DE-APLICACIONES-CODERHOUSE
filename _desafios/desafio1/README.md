@@ -13,7 +13,7 @@ Crear paso a paso una aplicación React Native utilizando Expo CLI.
 
 ### **Aspectos a incluir**
 
-- **Debe entregar el proyecto en un link al repositorio de github,de manera opcional agregar un diagrama o wireframe de tu aplicación.**
+- **Debe entregar el proyecto en un link al repositorio de github, de manera opcional agregar un diagrama o wireframe de tu aplicación.**
 
 ### **Formato**
 
