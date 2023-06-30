@@ -1,7 +1,17 @@
 import { StyleSheet, Text, View, Modal, Pressable } from 'react-native'
-import React, { useState } from 'react'
+import React from 'react'
 
-const ModalTask = ({modalVisible, taskActive, setModalVisible}) => {
+const ModalTask = ({ modalVisible, taskActive, setModalVisible, list, setList }) => {
+
+  const doneTask = () => {
+    console.log('tarea hecha', taskActive)
+    return taskActive.completed = true
+  }
+  const removeTask = () => {
+    console.log('tarea borrada', taskActive)
+    const updatedTaskList = list.filter(task => task.id !== taskActive.id)
+    setList(updatedTaskList)
+  }
 
   return (
     <Modal
@@ -17,13 +27,21 @@ const ModalTask = ({modalVisible, taskActive, setModalVisible}) => {
           <View style={styles.buttonContainer} >
             <Pressable
               style={[styles.button, styles.buttonDone]}
-              onPress={() => setModalVisible(!modalVisible)}>
+              onPress={() => {
+                // marcar como hecho
+                doneTask()
+                setModalVisible(!modalVisible)
+              }}>
               <Text style={styles.textStyle}>Done</Text>
             </Pressable>
             <Pressable
-              style={[styles.button, styles.buttonNotYet]}
-              onPress={() => setModalVisible(!modalVisible)}>
-              <Text style={styles.textStyle}>Not Yet</Text>
+              style={[styles.button, styles.buttonRemove]}
+              onPress={() => {
+                // eliminar
+                removeTask()
+                setModalVisible(!modalVisible)
+              }}>
+              <Text style={styles.textStyle}>Remove</Text>
             </Pressable>
             <Pressable
               style={[styles.button, styles.buttonCancel]}
@@ -67,7 +85,7 @@ const styles = StyleSheet.create({
   buttonDone: {
     backgroundColor: '#008f39',
   },
-  buttonNotYet: {
+  buttonRemove: {
     backgroundColor: '#F00000',
   },
   buttonCancel: {

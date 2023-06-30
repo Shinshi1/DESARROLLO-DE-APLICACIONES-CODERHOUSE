@@ -5,7 +5,7 @@ const RenderItemTask = ({ item, onPressTask }) => {
   return (
     <Pressable onPress={() => onPressTask(item)}>
       <View style={styles.task} key={item.id}>
-        <Text>
+        <Text style={item.completed ? styles.completedTaskText : ""}>
           {item.task}
         </Text>
       </View>
@@ -21,5 +21,11 @@ const styles = StyleSheet.create({
     backgroundColor: "azure",
     padding: 10,
     marginVertical: 10
+  },
+  taskText: {
+    textDecorationLine: 'none'
+  },
+  completedTaskText: {
+    textDecorationLine: 'line-through',
   }
 })
