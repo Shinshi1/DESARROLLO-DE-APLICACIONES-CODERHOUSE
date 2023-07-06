@@ -1,25 +1,24 @@
-# Desafío Entregable 2
+# Desafío Entregable 3
 
-# ****Debug & Component Split****
+# ****Switch y Elementos Externos****
 
-## ****Lista Optimizada****
+Aplicar lógica condicional que utilice estados para controlar la visualización de los componentes, e integrar fuentes externas.
 
-Crear paso a paso una pequeña lista con las funcionalidades y estilos
+**Consigna**
 
-### **Consigna**
+- **A partir de este ciclo de estilos y elementos, integra a tu proyecto un poco más de comportamiento lógico y visual:**
+- **Renderizado condicional entre elementos (switch entre pantallas)**
+- **Constantes compartidas.**
+- **Fonts externos.**
 
-- **A partir de este ciclo inicial, crear paso a paso una pequeña lista optimizada con las funcionalidades y estilos más concretos:**
-- Agregar acciones a los ítems, como agregar, borrar o marcar como completado
-- Estilo visual de la app
-
-### **Aspectos a incluir**
+**Aspectos a incluir**
 
 - **Debe entregar el proyecto en un link al repositorio de github, de manera opcional agregar un diagrama o wireframe de tu aplicación.**
 
-### **Formato**
+**Formato**
 
 - **Link al repositorio de Github.**
 
-### **Sugerencias**
+**Sugerencias**
 
-- **No olvidar la organización de componentes.**
+- **Puedes usar cualquier fuente que se ajuste al branding de tu proyecto.**
