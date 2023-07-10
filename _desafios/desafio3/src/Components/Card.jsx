@@ -2,9 +2,9 @@ import { StyleSheet, View } from 'react-native'
 import React from 'react'
 import { colors } from '../Global/Colors'
 
-const Card = ({children}) => {
+const Card = ({children, additionalStyle = []}) => {
   return (
-    <View style={styles.cardContainer}>
+    <View style={[styles.cardContainer, additionalStyle]}>
       {children}
     </View>
   )
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: colors.secondary,
     marginVertical: 10,
-    borderRadius: 8
+    borderRadius: 8,
+    overflow: 'hidden'
   }
 })
