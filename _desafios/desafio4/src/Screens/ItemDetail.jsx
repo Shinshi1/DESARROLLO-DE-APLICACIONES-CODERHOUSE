@@ -17,16 +17,11 @@ const ItemDetail = ({
     else setOrientation('portrait')
   }, [width, height])
 
-  // console.log(orientation)
-
   useEffect(() => {
     // encontrar el producto por su id
     const productSelected = allProducts.find(product => product.id === productId)
     setProduct(productSelected)
-    // setProductSelected(productSelected)
   }, [productId])
-
-  // console.log(product)
 
   return (
     <View>

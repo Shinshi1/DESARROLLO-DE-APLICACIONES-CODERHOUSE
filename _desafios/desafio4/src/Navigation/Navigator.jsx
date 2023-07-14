@@ -41,16 +41,6 @@ const Navigator = () => {
             name='Detail'
             component={ItemDetail}
           />
-
-          {/* {
-            categorySelected ?
-              <ItemListCategory category={categorySelected} setCategory={setCategorySelected} setProductSelected={setProductSelected} />
-              :
-              productSelected ?
-                <ItemDetail idSelected={productSelected} setProductSelected={setProductSelected} />
-                :
-                <Home setCategorySelected={setCategorySelected} />
-          } */}
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaView>
