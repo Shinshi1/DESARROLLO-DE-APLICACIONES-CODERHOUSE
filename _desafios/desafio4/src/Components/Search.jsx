@@ -10,25 +10,28 @@ const Search = ({
 }) => {
   const [keyword, setKeyword] = useState("")
   const { width, height } = useWindowDimensions()
-  console.log('height y width ', height, width)
+
+  const searchContainerStyle = width > 350 ? styles.searchContainer : styles.searchContainerSm
+  const inputStyle = width > 350 ? styles.input : styles.inputSm
+  const iconSize = width > 350 ? 24 : 16
 
   return (
     <View style={styles.container}>
-      <View style={width > 350 ? styles.searchContainer : styles.searchContainerSm}>
+      <View style={searchContainerStyle}>
         <Pressable onPress={goBack} >
-          <AntDesign name="arrowleft" size={width > 350 ? 24 : 14} color={"black"} />
+          <AntDesign name="arrowleft" size={iconSize} color={"black"} />
         </Pressable >
         <TextInput
-          style={width > 350 ? styles.input : styles.inputSm}
+          style={inputStyle}
           placeholder='Search...'
           value={keyword}
           onChangeText={setKeyword}
         />
         <Pressable onPress={() => onSearch(keyword)}>
-          <AntDesign name="search1" size={width > 350 ? 24 : 14} color="black" />
+          <AntDesign name="search1" size={iconSize} color="black" />
         </Pressable>
         <Pressable onPress={() => setKeyword("")}>
-          <AntDesign name="close" size={width > 350 ? 24 : 14} color="black" />
+          <AntDesign name="close" size={iconSize} color="black" />
         </Pressable>
       </View>
       <View style={styles.errorContainer}>
@@ -47,14 +50,13 @@ export default Search
 const styles = StyleSheet.create({
   container: {
     justifyContent: 'center',
-    height: '15%',
+    marginTop: 10,
     gap: 10,
   },
   searchContainerSm: {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '50%',
     gap: 10,
   },
   searchContainer: {
@@ -72,11 +74,10 @@ const styles = StyleSheet.create({
   },
   inputSm: {
     width: 170,
-    height: 30,
-    padding: 4,
-    fontSize: 12,
+    paddingHorizontal: 4,
+    fontSize: 14,
     backgroundColor: colors.tertiary,
-    borderRadius: 10,
+    borderRadius: 5,
   },
   keywordError: {
     color: 'red',

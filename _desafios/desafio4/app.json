@@ -3,7 +3,6 @@
     "name": "desafio3",
     "slug": "desafio3",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {

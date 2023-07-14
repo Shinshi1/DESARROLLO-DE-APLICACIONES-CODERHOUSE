@@ -1,13 +1,7 @@
-import { StyleSheet, View } from 'react-native';
-import Header from './src/Components/Header';
-import Home from './src/Screens/Home';
-import { useState } from 'react';
 import { useFonts } from 'expo-font';
-import ItemListCategory from './src/Screens/ItemListCategory';
+import Navigator from './src/Navigation/Navigator';
 
 export default function App() {
-
-  const [categorySelected, setCategorySelected] = useState("")
 
   const [fontsLoaded] = useFonts({
     Josefin: require('./src/assets/Fonts/Josefin_Sans/JosefinSans-Regular.ttf'),
@@ -20,20 +14,6 @@ export default function App() {
   }
 
   return (
-    <View style={styles.container}>
-      <Header />
-      {
-        categorySelected ?
-          <ItemListCategory category={categorySelected} setCategory={setCategorySelected} />
-          :
-          <Home setCategorySelected={setCategorySelected} />
-      }
-    </View>
+    <Navigator/>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
