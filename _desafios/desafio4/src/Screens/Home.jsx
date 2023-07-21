@@ -1,6 +1,6 @@
 import { StyleSheet, View, Text, Image, Pressable } from 'react-native'
 import React from 'react'
-import { colors } from '../Global/theme'
+import { colors, font } from '../Global/theme'
 import Card from '../Components/Card'
 
 const Home = ({
@@ -53,16 +53,17 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    fontWeight: 'bold',
+    fontFamily: font.headerFont2,
     paddingVertical: 14
   },
   textAbout: {
     textAlign: 'center',
-    paddingVertical: 10,
-    paddingHorizontal: 40
+    paddingVertical: 3,
+    paddingHorizontal: 40,
+    fontFamily: font.paragraphFont
   },
   textCategory: {
     color: colors.quaternary,
-    fontWeight: 'bold'
+    fontFamily: font.buttonFont
   }
 })

@@ -6,7 +6,9 @@ export const colors = {
 }
 
 export const font = {
-  family1: 'Montserrat',
-  family2: 'Roboto',
-  family3: 'Poppins',
+  headerFont1: 'MontserratBold',
+  headerFont2: 'PoppinsBold',
+  paragraphFont: 'RobotoRegular',
+  navFont: 'MontserratSemiBold',
+  buttonFont: 'PoppinsSemiBold',
 }

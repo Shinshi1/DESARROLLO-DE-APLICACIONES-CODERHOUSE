@@ -27,13 +27,13 @@ const styles = StyleSheet.create({
     height: 40,
   },
   textCategory: {
-    fontSize: 18,
+    fontSize: 16,
     color: colors.quaternary,
-    fontFamily: font.family3
+    fontFamily: font.buttonFont
   },
   textCategorySm: {
     fontSize: 14,
     color: colors.quaternary,
-    fontFamily: font.family3
+    fontFamily: font.buttonFont
   }
 })

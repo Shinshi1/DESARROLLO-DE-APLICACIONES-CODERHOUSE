@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.tertiary
   },
   productTitle: {
-    fontFamily: font.family3,
+    fontFamily: font.buttonFont,
     width: '50%',
     textAlign: 'center'
   }

@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 25,
     color: colors.quaternary,
-    fontFamily: 'Roboto'
+    fontFamily: font.headerFont1,
   }
 })
