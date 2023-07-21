@@ -1,7 +1,7 @@
 import { Pressable, StyleSheet, Text, TextInput, View, useWindowDimensions } from 'react-native'
 import { AntDesign } from '@expo/vector-icons'
 import React, { useState } from 'react'
-import { colors } from '../Global/Colors'
+import { colors } from '../Global/theme'
 
 const Search = ({
   onSearch,

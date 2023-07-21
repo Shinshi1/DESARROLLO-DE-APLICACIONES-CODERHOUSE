@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { colors } from '../Global/Colors'
+import { colors, font } from '../Global/theme'
 
 const Header = ({title}) => {
   console.log(title)
@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 25,
     color: colors.quaternary,
-    fontFamily: 'Josefin'
+    fontFamily: 'Roboto'
   }
 })

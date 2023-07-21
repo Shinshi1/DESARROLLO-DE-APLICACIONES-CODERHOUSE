@@ -1,6 +1,6 @@
 import { StyleSheet, View, Text, Image, Pressable } from 'react-native'
 import React from 'react'
-import { colors } from '../Global/Colors'
+import { colors } from '../Global/theme'
 import Card from '../Components/Card'
 
 const Home = ({

@@ -2,7 +2,7 @@ import { FlatList, Pressable, StyleSheet, Text, View, useWindowDimensions } from
 import React from 'react'
 import categories from '../Data/categories.json'
 import CategoryItem from '../Components/CategoryItem'
-import { colors } from '../Global/Colors'
+import { colors } from '../Global/theme'
 import { AntDesign } from '@expo/vector-icons'
 
 

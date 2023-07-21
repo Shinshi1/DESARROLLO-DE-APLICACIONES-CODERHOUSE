@@ -1,7 +1,7 @@
 import { Pressable, StyleSheet, Text, useWindowDimensions } from 'react-native'
 import React from 'react'
 import Card from './Card'
-import { colors } from '../Global/Colors'
+import { colors, font } from '../Global/theme'
 
 const CategoryItem = ({
   item,
@@ -29,11 +29,11 @@ const styles = StyleSheet.create({
   textCategory: {
     fontSize: 18,
     color: colors.quaternary,
-    fontFamily: 'PlayFair'
+    fontFamily: font.family3
   },
   textCategorySm: {
     fontSize: 14,
     color: colors.quaternary,
-    fontFamily: 'PlayFair'
+    fontFamily: font.family3
   }
 })

@@ -2,7 +2,7 @@ import { FlatList, StyleSheet, View } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import productsRaw from '../Data/products.json'
 import Search from '../Components/Search'
-import { colors } from '../Global/Colors'
+import { colors } from '../Global/theme'
 import ProductItem from '../Components/ProductItem'
 
 const ItemListCategory = ({

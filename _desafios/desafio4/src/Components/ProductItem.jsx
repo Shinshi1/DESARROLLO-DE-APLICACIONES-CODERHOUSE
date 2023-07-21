@@ -1,7 +1,7 @@
 import { Image, Pressable, StyleSheet, Text, useWindowDimensions } from 'react-native'
 import React from 'react'
 import Card from './Card'
-import { colors } from '../Global/Colors'
+import { colors, font } from '../Global/theme'
 
 const ProductItem = ({
   item,
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.tertiary
   },
   productTitle: {
-    fontFamily: 'PlayFair',
+    fontFamily: font.family3,
     width: '50%',
     textAlign: 'center'
   }

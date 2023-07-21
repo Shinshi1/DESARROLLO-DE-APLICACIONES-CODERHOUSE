@@ -4,9 +4,9 @@ import Navigator from './src/Navigation/Navigator';
 export default function App() {
 
   const [fontsLoaded] = useFonts({
-    Josefin: require('./src/assets/Fonts/Josefin_Sans/JosefinSans-Regular.ttf'),
-    Lobster: require('./src/assets/Fonts/Lobster/Lobster-Regular.ttf'),
-    PlayFair: require('./src/assets/Fonts/PlayFair/Playfair_144pt-Regular.ttf'),
+    Montserrat: require('./src/assets/Fonts/Montserrat/Montserrat-Regular.ttf'),
+    Roboto: require('./src/assets/Fonts/Roboto/Roboto-Regular.ttf'),
+    Poppins: require('./src/assets/Fonts/Poppins/Poppins-Regular.ttf')
   })
 
   if (!fontsLoaded) {

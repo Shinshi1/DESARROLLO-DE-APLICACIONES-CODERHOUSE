@@ -31,8 +31,8 @@ const ItemDetail = ({
           <Text style={styles.title}>{product.title}</Text>
           <Image resizeMode='cover' style={styles.image} source={{ uri: product.images[0] }} />
           <View style={styles.textContainer}>
-            <Text>{product.description}</Text>
-            <Text>${product.price}</Text>
+            <Text style={styles.textDescription}>{product.description}</Text>
+            <Text style={styles.textPrice}>${product.price}</Text>
             <Button title='Add cart' />
           </View>
         </View> : null}
@@ -51,7 +51,9 @@ const styles = StyleSheet.create({
   },
   title: {
     letterSpacing: 2.3,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    paddingVertical: 20,
+    fontSize: 21
   },
   mainContainerLandscape: {
     flexDirection: 'row',
@@ -65,5 +67,13 @@ const styles = StyleSheet.create({
   },
   textContainer: {
     flexDirection: 'column'
-  }
+  },
+  textDescription: {
+    fontSize: 16,
+    paddingVertical: 10
+  },
+  textPrice: {
+    fontWeight: 'bold',
+    paddingBottom: 10
+  },
 })
