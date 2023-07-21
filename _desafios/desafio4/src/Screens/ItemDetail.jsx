@@ -28,9 +28,9 @@ const ItemDetail = ({
       <Button onPress={() => navigation.goBack()} title='Go Back' />
       {product ?
         <View style={orientation === 'portrait' ? styles.mainContainer : styles.mainContainerLandscape}>
+          <Text style={styles.title}>{product.title}</Text>
           <Image resizeMode='cover' style={styles.image} source={{ uri: product.images[0] }} />
           <View style={styles.textContainer}>
-            <Text>{product.title}</Text>
             <Text>{product.description}</Text>
             <Text>${product.price}</Text>
             <Button title='Add cart' />
@@ -46,8 +46,12 @@ export default ItemDetail
 const styles = StyleSheet.create({
   mainContainer: {
     justifyContent: 'center',
-    alignItems: 'flex-start',
+    alignItems: 'center',
     padding: 10
+  },
+  title: {
+    letterSpacing: 2.3,
+    fontWeight: 'bold'
   },
   mainContainerLandscape: {
     flexDirection: 'row',
