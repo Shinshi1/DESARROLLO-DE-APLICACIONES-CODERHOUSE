@@ -8,7 +8,6 @@ const OrderItem = ({ order }) => {
         (acc, currentItem) => (acc += currentItem.price * currentItem.quantity),
         0
     );
-    console.log({order})
 
     return (
         <View style={styles.card} onPress={() => {}}>

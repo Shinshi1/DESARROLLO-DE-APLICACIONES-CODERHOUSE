@@ -5,14 +5,16 @@ import CartItem from '../Components/CartItem'
 
 import allCartItems from '../Data/cart.json'
 import { colors, font } from '../Global/theme'
+import { useSelector } from 'react-redux'
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState([])
   const [total, setTotal] = useState(0)
 
+  const allCartItems = useSelector(state => state.cartReducer.value.Cart)
+
   useEffect(() => {
     const total = allCartItems.reduce((acc, currentItem) =>  acc += currentItem.quantity * currentItem.price, 0 );
-    console.log('total', total)
     setCartItems(allCartItems)
     setTotal(total)
   }, [allCartItems])
@@ -21,7 +23,7 @@ const Cart = () => {
     <View style={styles.container}>
       <FlatList
         style={styles.list}
-        data={allCartItems}
+        data={cartItems}
         keyExtractor={(cartItem) => cartItem.id}
         renderItem={({ item }) => <CartItem cartItem={item} />}
       />
