@@ -2,6 +2,8 @@ import { Image, Pressable, StyleSheet, Text, useWindowDimensions } from 'react-n
 import React from 'react'
 import Card from './Card'
 import { colors, font } from '../Global/theme'
+import { useDispatch } from 'react-redux'
+import { setProductIdSelected } from '../Features/Shop/shopSlice'
 
 const ProductItem = ({
   item,
@@ -9,10 +11,13 @@ const ProductItem = ({
 }) => {
   const { height, width } = useWindowDimensions()
 
+  const dispatch = useDispatch()
+
   const additonalStyleCard = width > 350 ? styles.additionalStyleCard : styles.additionalStyleCardSm
   const imageStyle = width > 350 ? styles.image : styles.imageSm
 
   const onSelect = (id) => {
+    dispatch(setProductIdSelected(id))
     navigation.navigate('Detail', {productId: id})
   }
 

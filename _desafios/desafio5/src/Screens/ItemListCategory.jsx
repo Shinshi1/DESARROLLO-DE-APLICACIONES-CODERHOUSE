@@ -6,8 +6,7 @@ import ProductItem from '../Components/ProductItem'
 import { useSelector } from 'react-redux'
 
 const ItemListCategory = ({
-  navigation,
-  // route
+  navigation
 }) => {
   const productsSelected = useSelector(state => state.shopReducer.value.productsSelected)
 

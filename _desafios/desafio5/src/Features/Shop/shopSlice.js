@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit"
 import Products from '../../Data/products.json'
+import Categories from '../../Data/categories.json'
 
 export const shopSlice = createSlice({
   name: 'shop',
@@ -8,7 +9,9 @@ export const shopSlice = createSlice({
       categorySelected: '',
       productIdSelected: null,
       allProducts: Products,
-      productsSelected: []
+      productsSelected: [],
+      productSelected: {},
+      allCategories: Categories
     }
   },
   reducers: {
@@ -17,6 +20,7 @@ export const shopSlice = createSlice({
       state.value.categorySelected = action.payload
     },
     setProductIdSelected: (state, action) => {
+      state.value.productSelected = state.value.allProducts.find(product => product.id === action.payload)
       state.value.productIdSelected = action.payload
     }
   }

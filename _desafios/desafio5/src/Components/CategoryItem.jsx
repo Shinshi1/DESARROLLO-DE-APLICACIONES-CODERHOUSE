@@ -48,4 +48,4 @@ const styles = StyleSheet.create({
     color: colors.quaternary,
     fontFamily: font.buttonFont
   }
-})
+}) 

@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { Button, Image, StyleSheet, Text, View, useWindowDimensions } from 'react-native'
-import allProducts from '../Data/products.json'
+import { useSelector } from 'react-redux'
 
 const ItemDetail = ({
   navigation,
   route
 }) => {
-  const { productId } = route.params
+
+  const productId = useSelector(state => state.shopReducer.value.productIdSelected)
+  const productSelected = useSelector(state => state.shopReducer.value.productSelected)
 
   const [product, setProduct] = useState(null)
   const [orientation, setOrientation] = useState('portrait')
@@ -18,8 +20,6 @@ const ItemDetail = ({
   }, [width, height])
 
   useEffect(() => {
-    // encontrar el producto por su id
-    const productSelected = allProducts.find(product => product.id === productId)
     setProduct(productSelected)
   }, [productId])
 
