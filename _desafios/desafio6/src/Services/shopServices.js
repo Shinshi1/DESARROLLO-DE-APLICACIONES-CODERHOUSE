@@ -5,11 +5,11 @@ export const shopApi = createApi({
   reducerPath: 'shopApi',
   baseQuery: fetchBaseQuery({ baseUrl: realtime_database_url }),
   endpoints: (builder) => ({
-    getProducts: builder.query({
-      query: () => `products.json`,
-    }),
     getCategories: builder.query({
       query: () => `categories.json`,
+    }),
+    getProducts: builder.query({
+      query: () => `products.json`,
     }),
     getProductsByCategory: builder.query({
       query: (category) => `products.json?orderBy="category"&equalTo="${category}"`,
@@ -32,8 +32,20 @@ export const shopApi = createApi({
         body: order
       })
     }),
+    getProfileImage: builder.query({
+      query: (localId) => `profileImages/${localId}.json`
+    }),
+    postProfileImage: builder.mutation({
+      query: ({image, localId}) => ({
+        url:`profileImages/${localId}.json`,
+        method: 'PUT',
+        body: {
+          image: image
+        }
+      })
+    })
     
   })
 })
 
-export const { useGetProductsQuery, useGetCategoriesQuery, useGetProductsByCategoryQuery, usePostCartMutation } = shopApi
+export const { useGetProductsQuery, useGetCategoriesQuery, useGetProductsByCategoryQuery, usePostCartMutation, useGetProfileImageQuery, usePostProfileImageMutation } = shopApi

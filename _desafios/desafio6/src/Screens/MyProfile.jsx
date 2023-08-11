@@ -20,19 +20,15 @@ const MyProfile = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      {profileImage ? (
-        <Image
-          source={{uri: profileImage}}
-          style={styles.image}
-          resizeMode='cover'
-        />
-      ) : (
-        <Image
-          source={require('../assets/Images/defaultProfile.png')}
-          style={styles.image}
-          resizeMode='cover'
-        />
-      )}
+      <Image
+        source={
+          profileImage ?
+            { uri: profileImage }
+            : require('../assets/Images/defaultProfile.png')
+        }
+        style={styles.image}
+        resizeMode='cover'
+      />
       <AddButton onPress={launchCamera} title='Add profile picture' />
     </View>
   )
@@ -45,7 +41,7 @@ const styles = StyleSheet.create({
     padding: 10,
     gap: 15,
     alignItems: 'center',
-    justifyContent:'flex-start',
+    justifyContent: 'flex-start',
   },
   image: {
     width: 100,

@@ -26,7 +26,7 @@ const Header = ({ route, navigation }) => {
 
   const dispatch = useDispatch()
   const { email } = useSelector(state => state.userReducer.value)
-  const notGoBack = ['Signup', 'Home', 'CartScreen', 'OrderScreen', 'Login']
+  const notGoBack = ['Signup', 'Home', 'CartScreen', 'OrderScreen', 'Login', 'My Profile']
   return (
     <View style={styles.containerHeader}>
       <>
