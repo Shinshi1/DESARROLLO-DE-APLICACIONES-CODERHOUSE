@@ -4,8 +4,10 @@ export const userSlice = createSlice({
   name: "User",
   initialState: {
     value: {
-      email: null,
-      idToken: null,
+      email: '',
+      idToken: '',
+      localId: '',
+      profileImage: ''
     },
   },
   reducers: {
@@ -17,6 +19,9 @@ export const userSlice = createSlice({
         email: "",
         idToken: "",
       }
+    },
+    saveImage: (state, action) => {
+      state.value.profileImage = action.payload
     }
   },
 })

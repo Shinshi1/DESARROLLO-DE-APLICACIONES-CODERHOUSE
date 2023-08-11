@@ -20,7 +20,9 @@ const Header = ({ route, navigation }) => {
             route.name === 'OrderScreen' ? title = 'Orders' :
               route.name === 'Signup' ? title = 'Signup' :
                 route.name === 'Login' ? title = 'Login' :
-                  title = 'Header'
+                  route.name === 'My Profile' ? title = 'Profile' :
+                    route.name === 'Image Selector' ? title = 'Select Image' :
+                      title = 'Header'
 
   const dispatch = useDispatch()
   const { email } = useSelector(state => state.userReducer.value)

@@ -2,7 +2,7 @@ import React from 'react'
 import { Platform, SafeAreaView, StatusBar, StyleSheet, View } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
-import { Entypo, Ionicons, FontAwesome5 } from '@expo/vector-icons';
+import { Entypo, Ionicons, FontAwesome5, MaterialCommunityIcons } from '@expo/vector-icons';
 
 
 import ShopStack from './Stack/ShopStack'
@@ -12,6 +12,7 @@ import { colors } from '../Global/theme'
 import OrderStack from './Stack/OrderStack';
 import AuthStack from './Stack/AuthStack';
 import { useSelector } from 'react-redux';
+import MyProfileStack from './Stack/MyProfileStack';
 
 const Tab = createBottomTabNavigator()
 
@@ -82,6 +83,28 @@ const Navigator = () => {
                       <View>
                         <FontAwesome5
                           name="list"
+                          size={20}
+                          color={
+                            focused
+                              ? colors.quaternary
+                              : "#ababab"
+                          }
+                        />
+                      </View>
+                    )
+                  }
+
+                }}
+              />
+              <Tab.Screen
+                name='MyProfile'
+                component={MyProfileStack}
+                options={{
+                  tabBarIcon: ({ focused }) => {
+                    return (
+                      <View>
+                        <MaterialCommunityIcons
+                          name="account"
                           size={20}
                           color={
                             focused

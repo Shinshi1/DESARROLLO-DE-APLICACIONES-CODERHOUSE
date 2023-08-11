@@ -1,15 +1,15 @@
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-
 import Header from '../../Components/Header'
-import Cart from '../../Screens/Cart'
+import MyProfile from '../../Screens/MyProfile'
+import ImageSelector from '../../Screens/ImageSelector'
 
 const Stack = createNativeStackNavigator()
 
-const CartStack = () => {
+const MyProfileStack = () => {
   return (
     <Stack.Navigator
-      initialRouteName={'Cart'}
+      initialRouteName={'My Profile'}
       screenOptions={
         ({ route, navigation }) => (
           {
@@ -21,11 +21,15 @@ const CartStack = () => {
       }
     >
       <Stack.Screen
-        name="CartScreen"
-        component={Cart}
+        name="My Profile"
+        component={MyProfile}
+      />
+      <Stack.Screen
+        name="Image Selector"
+        component={ImageSelector}
       />
     </Stack.Navigator>
   )
 }
 
-export default CartStack
+export default MyProfileStack
