@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import InputForm from '../Components/InputForm'
 import SubmitButton from '../Components/SubmitButton'
 import { font } from '../Global/theme'
-import { useLoginMutation } from '../Services/authServices'
+import { useSignInMutation } from '../Services/authServices'
 import { useDispatch } from 'react-redux'
 import { setUser } from '../Features/User/userSlice'
 import { isAtLeastSixCharacters, isValidMail } from '../Validations/auth'
@@ -14,7 +14,7 @@ const LoginScreen = ({ navigation }) => {
   const [password, setPassword] = useState('')
   const [errorPassword, setErrorPassword] = useState('')
 
-  const [triggerLogin, result] = useLoginMutation()
+  const [triggerSignIn, result] = useSignInMutation()
   const dispatch = useDispatch()
   console.log(result)
 
@@ -28,9 +28,10 @@ const LoginScreen = ({ navigation }) => {
       )
     }
     if (result.isError) {
+      const incorrectCredentials = result.error.data.error.message === 'EMAIL_NOT_FOUND' || 'INVALID_PASSWORD'
+      if (incorrectCredentials) return alert('incorrect credentials')
       alert('Error al iniciar sesión')
       console.error(result.error.data.error.message)
-
     }
   }, [result])
 
@@ -46,7 +47,7 @@ const LoginScreen = ({ navigation }) => {
           password,
           returnSecureToken: true
         }
-        triggerLogin(request)
+        triggerSignIn(request)
       }
       if (!isValidEmail) setErrorMail('Email is not correct')
       if (!isValidPassword) setErrorPassword('Password must be at least 6 character')

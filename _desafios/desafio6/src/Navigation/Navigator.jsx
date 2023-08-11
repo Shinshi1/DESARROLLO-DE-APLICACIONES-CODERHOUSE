@@ -96,8 +96,7 @@ const Navigator = () => {
                 }}
               />
             </Tab.Navigator>
-            :
-            <AuthStack />
+            : <AuthStack />
         }
       </NavigationContainer>
     </SafeAreaView>
