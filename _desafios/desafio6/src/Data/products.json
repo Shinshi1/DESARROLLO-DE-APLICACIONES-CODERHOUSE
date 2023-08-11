@@ -1,0 +1,805 @@
+[
+  {
+      "id": 1,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
+      "images": [
+          "https://i.dummyjson.com/data/products/1/1.jpg",
+          "https://i.dummyjson.com/data/products/1/2.jpg",
+          "https://i.dummyjson.com/data/products/1/3.jpg",
+          "https://i.dummyjson.com/data/products/1/4.jpg",
+          "https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+      ]
+  },
+  {
+      "id": 2,
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+      "images": [
+          "https://i.dummyjson.com/data/products/2/1.jpg",
+          "https://i.dummyjson.com/data/products/2/2.jpg",
+          "https://i.dummyjson.com/data/products/2/3.jpg",
+          "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+      ]
+  },
+  {
+      "id": 3,
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
+      "images": ["https://i.dummyjson.com/data/products/3/1.jpg"]
+  },
+  {
+      "id": 4,
+      "title": "OPPOF19",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "price": 280,
+      "discountPercentage": 17.91,
+      "rating": 4.3,
+      "stock": 123,
+      "brand": "OPPO",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
+      "images": [
+          "https://i.dummyjson.com/data/products/4/1.jpg",
+          "https://i.dummyjson.com/data/products/4/2.jpg",
+          "https://i.dummyjson.com/data/products/4/3.jpg",
+          "https://i.dummyjson.com/data/products/4/4.jpg",
+          "https://i.dummyjson.com/data/products/4/thumbnail.jpg"
+      ]
+  },
+  {
+      "id": 5,
+      "title": "Huawei P30",
+      "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+      "price": 499,
+      "discountPercentage": 10.58,
+      "rating": 4.09,
+      "stock": 32,
+      "brand": "Huawei",
+      "category": "smartphones",
+      "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
+      "images": [
+          "https://i.dummyjson.com/data/products/5/1.jpg",
+          "https://i.dummyjson.com/data/products/5/2.jpg",
+          "https://i.dummyjson.com/data/products/5/3.jpg"
+      ]
+  },
+  {
+      "id": 6,
+      "title": "MacBook Pro",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "price": 1749,
+      "discountPercentage": 11.02,
+      "rating": 4.57,
+      "stock": 83,
+      "brand": "Apple",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "images": [
+          "https://i.dummyjson.com/data/products/6/1.png",
+          "https://i.dummyjson.com/data/products/6/2.jpg",
+          "https://i.dummyjson.com/data/products/6/3.png",
+          "https://i.dummyjson.com/data/products/6/4.jpg"
+      ]
+  },
+  {
+      "id": 7,
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "discountPercentage": 4.15,
+      "rating": 4.25,
+      "stock": 50,
+      "brand": "Samsung",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+      "images": [
+          "https://i.dummyjson.com/data/products/7/1.jpg",
+          "https://i.dummyjson.com/data/products/7/2.jpg",
+          "https://i.dummyjson.com/data/products/7/3.jpg",
+          "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+      ]
+  },
+  {
+      "id": 8,
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+      "images": [
+          "https://i.dummyjson.com/data/products/8/1.jpg",
+          "https://i.dummyjson.com/data/products/8/2.jpg",
+          "https://i.dummyjson.com/data/products/8/3.jpg",
+          "https://i.dummyjson.com/data/products/8/4.jpg",
+          "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+      ]
+  },
+  {
+      "id": 9,
+      "title": "Infinix INBOOK",
+      "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+      "price": 1099,
+      "discountPercentage": 11.83,
+      "rating": 4.54,
+      "stock": 96,
+      "brand": "Infinix",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+      "images": [
+          "https://i.dummyjson.com/data/products/9/1.jpg",
+          "https://i.dummyjson.com/data/products/9/2.png",
+          "https://i.dummyjson.com/data/products/9/3.png",
+          "https://i.dummyjson.com/data/products/9/4.jpg",
+          "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+      ]
+  },
+  {
+      "id": 10,
+      "title": "HP Pavilion 15-DK1056WM",
+      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+      "price": 1099,
+      "discountPercentage": 6.18,
+      "rating": 4.43,
+      "stock": 89,
+      "brand": "HP Pavilion",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+      "images": [
+          "https://i.dummyjson.com/data/products/10/1.jpg",
+          "https://i.dummyjson.com/data/products/10/2.jpg",
+          "https://i.dummyjson.com/data/products/10/3.jpg",
+          "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+      ]
+  },
+  {
+    "id": 11,
+    "title": "Samsung Galaxy Tab S7",
+    "description": "Samsung Galaxy Tab S7 11-inch, 128GB, Wi-Fi, Mystic Silver",
+    "price": 649,
+    "discountPercentage": 10.50,
+    "rating": 4.88,
+    "stock": 56,
+    "brand": "Samsung",
+    "category": "tablets",
+    "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpeg",
+    "images": [
+      "https://samsungar.vtexassets.com/arquivos/ids/176145-1200-auto?width=1200&height=auto&aspect=true",
+      "https://i.dummyjson.com/data/products/11/2.jpg",
+      "https://i.dummyjson.com/data/products/11/3.jpg",
+      "https://i.dummyjson.com/data/products/11/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Apple iPad Air (4th Generation)",
+    "description": "Apple iPad Air (4th Generation) 10.9-inch, 256GB, Wi-Fi, Space Gray",
+    "price": 699,
+    "discountPercentage": 5.75,
+    "rating": 4.75,
+    "stock": 78,
+    "brand": "Apple",
+    "category": "tablets",
+    "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpeg",
+    "images": [
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSiQaTVMVJtSj7phXxsraeKlJVwuZFhQSncOPLPuEL5VRT34QZeqxZIOVhB3XvmF5kNq6jxLXSIyHNxQB1xm19TDaabC4NI",
+      "https://i.dummyjson.com/data/products/12/2.jpg",
+      "https://i.dummyjson.com/data/products/12/3.jpg",
+      "https://i.dummyjson.com/data/products/12/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Microsoft Surface Pro 7",
+    "description": "Microsoft Surface Pro 7 12.3-inch, 256GB SSD, Core i5, Windows 10 Home",
+    "price": 899,
+    "discountPercentage": 8.10,
+    "rating": 4.67,
+    "stock": 42,
+    "brand": "Microsoft",
+    "category": "tablets",
+    "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.jpeg",
+    "images": [
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQuljkALxI7yfMivYXG97_CnEVCu_N7vjMPTI17fvqf6Srpf4tpihRus12iafQNelkasIjxUXOU46TkyrQronHfeaSlaEhb",
+      "https://i.dummyjson.com/data/products/13/2.jpg",
+      "https://i.dummyjson.com/data/products/13/3.jpg",
+      "https://i.dummyjson.com/data/products/13/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Lenovo Tab P11 Pro",
+    "description": "Lenovo Tab P11 Pro 11.5-inch, 128GB, OLED, Snapdragon 730G, Android 10",
+    "price": 499,
+    "discountPercentage": 12.25,
+    "rating": 4.33,
+    "stock": 64,
+    "brand": "Lenovo",
+    "category": "tablets",
+    "thumbnail": "https://i.dummyjson.com/data/products/14/thumbnail.jpeg",
+    "images": [
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSfgGQIfmWzpm_MBprUIOBLi7lvJ99QHgC3fY9xu_PSy-wPbG5yfwRaHkYS7haDjhFbSwjrF-WzBP4QzwGt8Jfzniv2bpgE",
+      "https://i.dummyjson.com/data/products/14/2.jpg",
+      "https://i.dummyjson.com/data/products/14/3.jpg",
+      "https://i.dummyjson.com/data/products/14/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Amazon Fire HD 10",
+    "description": "Amazon Fire HD 10 10.1-inch, 64GB, Fire OS, Black",
+    "price": 189,
+    "discountPercentage": 15.00,
+    "rating": 4.12,
+    "stock": 35,
+    "brand": "Amazon",
+    "category": "tablets",
+    "thumbnail": "https://i.dummyjson.com/data/products/15/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_688569-MLA47848824359_102021-O.webp",
+      "https://i.dummyjson.com/data/products/15/2.jpg",
+      "https://i.dummyjson.com/data/products/15/3.jpg",
+      "https://i.dummyjson.com/data/products/15/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Smartwatch X1",
+    "description": "The Smartwatch X1 is your ultimate fitness companion, packed with advanced health and fitness features.",
+    "price": 199,
+    "discountPercentage": 10.5,
+    "rating": 4.88,
+    "stock": 150,
+    "brand": "TechPro",
+    "category": "wearables",
+    "thumbnail": "https://i.dummyjson.com/data/products/11/thumbnail.jpeg",
+    "images": [
+      "https://d3ugyf2ht6aenh.cloudfront.net/stores/477/775/products/oinhe43u2hynrt284qghety89yhg11-1e775400c1ddbff7fd16497645109824-1024-1024.jpg",
+      "https://i.dummyjson.com/data/products/11/2.jpg",
+      "https://i.dummyjson.com/data/products/11/3.jpg",
+      "https://i.dummyjson.com/data/products/11/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Fitness Tracker FT3",
+    "description": "Stay active and stylish with the Fitness Tracker FT3. Track your steps, heart rate, and sleep quality.",
+    "price": 49,
+    "discountPercentage": 15.2,
+    "rating": 4.65,
+    "stock": 300,
+    "brand": "FitPro",
+    "category": "wearables",
+    "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpeg",
+    "images": [
+      "https://m.media-amazon.com/images/I/61AxphqcxqL._AC_UF1000,1000_QL80_.jpg",
+      "https://i.dummyjson.com/data/products/12/2.jpg",
+      "https://i.dummyjson.com/data/products/12/3.jpg",
+      "https://i.dummyjson.com/data/products/12/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Smart Glasses G2",
+    "description": "Experience augmented reality with the Smart Glasses G2. Stay connected and hands-free.",
+    "price": 299,
+    "discountPercentage": 8.75,
+    "rating": 4.72,
+    "stock": 75,
+    "brand": "VisionTech",
+    "category": "wearables",
+    "thumbnail": "https://i.dummyjson.com/data/products/13/thumbnail.jpeg",
+    "images": [
+      "https://iristick.com/uploads/images/_largeImage/g2_large_interactive.jpg",
+      "https://i.dummyjson.com/data/products/13/2.jpg",
+      "https://i.dummyjson.com/data/products/13/3.jpg",
+      "https://i.dummyjson.com/data/products/13/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Wireless Earbuds E5",
+    "description": "Enjoy superior sound quality and freedom with the Wireless Earbuds E5. Perfect for music and calls.",
+    "price": 79,
+    "discountPercentage": 5.9,
+    "rating": 4.9,
+    "stock": 200,
+    "brand": "SoundTech",
+    "category": "wearables",
+    "thumbnail": "https://i.dummyjson.com/data/products/14/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_660742-MLA52221291776_102022-O.webp",
+      "https://i.dummyjson.com/data/products/14/2.jpg",
+      "https://i.dummyjson.com/data/products/14/3.jpg",
+      "https://i.dummyjson.com/data/products/14/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Smart Ring R1",
+    "description": "Wear the future on your finger with the Smart Ring R1. Control devices and receive notifications.",
+    "price": 129,
+    "discountPercentage": 12.0,
+    "rating": 4.5,
+    "stock": 120,
+    "brand": "RingTech",
+    "category": "wearables",
+    "thumbnail": "https://i.dummyjson.com/data/products/15/thumbnail.jpeg",
+    "images": [
+      "https://cdn.speedsize.com/3f711f28-1488-44dc-b013-5e43284ac4b0/https://s3.amazonaws.com/public-web-assets.ultrahuman.com/web_v2/ring-buy/carousel/Matte-black/s3.png",
+      "https://i.dummyjson.com/data/products/15/2.jpg",
+      "https://i.dummyjson.com/data/products/15/3.jpg",
+      "https://i.dummyjson.com/data/products/15/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Wireless Mouse M328",
+    "description": "High-precision wireless mouse for seamless navigation.",
+    "price": 29.99,
+    "discountPercentage": 15.50,
+    "rating": 4.87,
+    "stock": 120,
+    "brand": "Logitech",
+    "category": "Device Accessories",
+    "thumbnail": "https://i.dummyjson.com/data/products/21/thumbnail.jpeg",
+    "images": [
+      "https://media.karousell.com/media/photos/products/2022/10/17/logitech_m328_wireless_mouse_a_1666018341_15cdecf9_progressive.jpg",
+      "https://i.dummyjson.com/data/products/21/2.jpg",
+      "https://i.dummyjson.com/data/products/21/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "PowerPlus 10000mAh Power Bank",
+    "description": "Slim and powerful power bank to keep your devices charged on the go.",
+    "price": 39.95,
+    "discountPercentage": 10.25,
+    "rating": 4.65,
+    "stock": 75,
+    "brand": "PowerPlus",
+    "category": "Device Accessories",
+    "thumbnail": "https://i.dummyjson.com/data/products/22/thumbnail.jpeg",
+    "images": [
+      "https://5.imimg.com/data5/HW/GN/MY-24448369/power-plus-10000-mah-magic-box-premium-power-bank-1000x1000.jpg",
+      "https://i.dummyjson.com/data/products/22/2.jpg",
+      "https://i.dummyjson.com/data/products/22/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Bluetooth Earbuds X3",
+    "description": "Wireless Bluetooth earbuds for immersive sound experience.",
+    "price": 49.99,
+    "discountPercentage": 5.00,
+    "rating": 4.92,
+    "stock": 95,
+    "brand": "SoundBlast",
+    "category": "Device Accessories",
+    "thumbnail": "https://i.dummyjson.com/data/products/23/thumbnail.jpeg",
+    "images": [
+      "https://www.luluhypermarket.com/cdn-cgi/image/f=auto/medias/2038791-01.jpg-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w5Mzk1NHxpbWFnZS9qcGVnfGFHVm1MMmhtTnk4eE5URTRNVGd6T0RZME56TXlOaTh5TURNNE56a3hMVEF4TG1wd1oxOHhNakF3VjNneE1qQXdTQXwyNzhhNWQyMjEyNzY2ZThiNjkzYzE4Yzg5YjUwY2E1NzRmNDkwZWU4OWQ1ZTM2ZjAxNzQyMmEwNDQwNmQwZWM1",
+      "https://i.dummyjson.com/data/products/23/2.jpg",
+      "https://i.dummyjson.com/data/products/23/3.jpg",
+      "https://i.dummyjson.com/data/products/23/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Universal Laptop Sleeve",
+    "description": "Protective laptop sleeve compatible with various laptop sizes.",
+    "price": 19.95,
+    "discountPercentage": 8.00,
+    "rating": 4.57,
+    "stock": 110,
+    "brand": "TechGuard",
+    "category": "Device Accessories",
+    "thumbnail": "https://i.dummyjson.com/data/products/24/thumbnail.jpeg",
+    "images": [
+      "https://portativ.ua/media/cache/images/1/image/750x700/602f0fa2c1f0d1ba5e241f914e856ff9/catalog/product/3/ce21844a1dbc907921f212ec129f9651.jpg",
+      "https://i.dummyjson.com/data/products/24/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Phone Camera Lens Kit",
+    "description": "Enhance your phone's camera capabilities with this lens kit.",
+    "price": 24.99,
+    "discountPercentage": 12.75,
+    "rating": 4.82,
+    "stock": 80,
+    "brand": "CapturePro",
+    "category": "Device Accessories",
+    "thumbnail": "https://i.dummyjson.com/data/products/25/thumbnail.jpeg",
+    "images": [
+      "https://m.media-amazon.com/images/I/512aCYDcKfL._AC_SL1000_.jpg",
+      "https://i.dummyjson.com/data/products/25/2.jpg",
+      "https://i.dummyjson.com/data/products/25/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "MSI GF65 Thin 10UE-091",
+    "description": "MSI GF65 Thin 10UE-091 Gaming Laptop Intel Core i7, 16GB RAM, 512GB SSD, RTX 3060 6GB, Windows 10",
+    "price": 1399,
+    "discountPercentage": 10.25,
+    "rating": 4.79,
+    "stock": 72,
+    "brand": "MSI",
+    "category": "Gaming",
+    "thumbnail": "https://i.dummyjson.com/data/products/21/thumbnail.jpeg",
+    "images": [
+        "https://http2.mlstatic.com/D_NQ_NP_743473-MLA51839759242_102022-O.webp",
+        "https://i.dummyjson.com/data/products/21/2.jpg",
+        "https://i.dummyjson.com/data/products/21/3.jpg",
+        "https://i.dummyjson.com/data/products/21/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "ASUS ROG Strix G17 G713QR-HG037T",
+    "description": "ASUS ROG Strix G17 G713QR-HG037T Gaming Laptop Ryzen 9, 16GB RAM, 1TB SSD, RTX 3070 8GB, Windows 10",
+    "price": 1799,
+    "discountPercentage": 8.60,
+    "rating": 4.95,
+    "stock": 64,
+    "brand": "ASUS ROG Strix",
+    "category": "Gaming",
+    "thumbnail": "https://i.dummyjson.com/data/products/22/thumbnail.jpeg",
+    "images": [
+        "https://www.inovamusicnet.com/wp-content/uploads/2023/05/asus_g733py_xs96_17_3_rog_strix_gaming_1678710937_1756852.jpg",
+        "https://i.dummyjson.com/data/products/22/2.jpg",
+        "https://i.dummyjson.com/data/products/22/3.jpg",
+        "https://i.dummyjson.com/data/products/22/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Razer Blade 15 Base Edition",
+    "description": "Razer Blade 15 Base Edition Gaming Laptop Intel Core i7, 16GB RAM, 512GB SSD, RTX 3060 6GB, Windows 10",
+    "price": 1999,
+    "discountPercentage": 5.50,
+    "rating": 4.82,
+    "stock": 53,
+    "brand": "Razer",
+    "category": "Gaming",
+    "thumbnail": "https://i.dummyjson.com/data/products/23/thumbnail.jpeg",
+    "images": [
+        "https://http2.mlstatic.com/D_NQ_NP_935883-MLA70179141807_062023-O.webp",
+        "https://i.dummyjson.com/data/products/23/2.jpg",
+        "https://i.dummyjson.com/data/products/23/3.jpg",
+        "https://i.dummyjson.com/data/products/23/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Acer Predator Helios 300",
+    "description": "Acer Predator Helios 300 Gaming Laptop Intel Core i7, 16GB RAM, 1TB SSD, RTX 3070 8GB, Windows 10",
+    "price": 1499,
+    "discountPercentage": 12.36,
+    "rating": 4.67,
+    "stock": 68,
+    "brand": "Acer Predator",
+    "category": "Gaming",
+    "thumbnail": "https://i.dummyjson.com/data/products/24/thumbnail.jpeg",
+    "images": [
+        "https://http2.mlstatic.com/D_NQ_NP_887095-MLA49933868752_052022-O.webp",
+        "https://i.dummyjson.com/data/products/24/2.jpg",
+        "https://i.dummyjson.com/data/products/24/3.jpg",
+        "https://i.dummyjson.com/data/products/24/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Alienware m15 R6",
+    "description": "Alienware m15 R6 Gaming Laptop Intel Core i7, 32GB RAM, 2TB SSD, RTX 3080 16GB, Windows 10",
+    "price": 2699,
+    "discountPercentage": 9.80,
+    "rating": 4.91,
+    "stock": 47,
+    "brand": "Alienware",
+    "category": "Gaming",
+    "thumbnail": "https://i.dummyjson.com/data/products/25/thumbnail.jpeg",
+    "images": [
+        "https://static-geektopia.com/storage/t/p/121/121558/816x381/alienware_m15_r6.webp",
+        "https://i.dummyjson.com/data/products/25/2.jpg",
+        "https://i.dummyjson.com/data/products/25/3.jpg",
+        "https://i.dummyjson.com/data/products/25/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Sony WH-1000XM4",
+    "description": "Sony WH-1000XM4 Wireless Noise-Cancelling Headphones",
+    "price": 349,
+    "discountPercentage": 15.5,
+    "rating": 4.78,
+    "stock": 55,
+    "brand": "Sony",
+    "category": "audio and sound",
+    "thumbnail": "https://i.dummyjson.com/data/products/31/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_918604-MLA44483909501_012021-F.webp",
+      "https://i.dummyjson.com/data/products/31/2.jpg",
+      "https://i.dummyjson.com/data/products/31/3.jpg",
+      "https://i.dummyjson.com/data/products/31/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Bose SoundLink Revolve+",
+    "description": "Bose SoundLink Revolve+ Portable Bluetooth Speaker",
+    "price": 249,
+    "discountPercentage": 10.2,
+    "rating": 4.65,
+    "stock": 42,
+    "brand": "Bose",
+    "category": "audio and sound",
+    "thumbnail": "https://i.dummyjson.com/data/products/32/thumbnail.jpeg",
+    "images": [
+      "https://i.rtings.com/assets/products/Q2ZVSu87/bose-soundlink-revolve-plus-ii/design-medium.jpg",
+      "https://i.dummyjson.com/data/products/32/2.jpg",
+      "https://i.dummyjson.com/data/products/32/3.jpg",
+      "https://i.dummyjson.com/data/products/32/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "JBL Flip 5",
+    "description": "JBL Flip 5 Waterproof Portable Bluetooth Speaker",
+    "price": 129,
+    "discountPercentage": 5.0,
+    "rating": 4.32,
+    "stock": 63,
+    "brand": "JBL",
+    "category": "audio and sound",
+    "thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_869763-MLA50495066082_062022-O.webp",
+      "https://i.dummyjson.com/data/products/33/2.jpg",
+      "https://i.dummyjson.com/data/products/33/3.jpg",
+      "https://i.dummyjson.com/data/products/33/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Sennheiser HD 660 S",
+    "description": "Sennheiser HD 660 S Open Back Professional Headphones",
+    "price": 449,
+    "discountPercentage": 12.75,
+    "rating": 4.92,
+    "stock": 28,
+    "brand": "Sennheiser",
+    "category": "audio and sound",
+    "thumbnail": "https://i.dummyjson.com/data/products/34/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_751417-MLA42478121989_072020-O.webp",
+      "https://i.dummyjson.com/data/products/34/2.jpg",
+      "https://i.dummyjson.com/data/products/34/3.jpg",
+      "https://i.dummyjson.com/data/products/34/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Beats Studio3 Wireless",
+    "description": "Beats Studio3 Wireless Over-Ear Noise Cancelling Headphones",
+    "price": 299,
+    "discountPercentage": 8.0,
+    "rating": 4.21,
+    "stock": 37,
+    "brand": "Beats",
+    "category": "audio and sound",
+    "thumbnail": "https://i.dummyjson.com/data/products/35/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_675234-MLA46910549058_072021-O.webp",
+      "https://i.dummyjson.com/data/products/35/2.jpg",
+      "https://i.dummyjson.com/data/products/35/3.jpg",
+      "https://i.dummyjson.com/data/products/35/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Canon EOS Rebel T7",
+    "description": "Canon EOS Rebel T7 DSLR Camera with EF-S 18-55mm Lens",
+    "price": 499,
+    "discountPercentage": 10.5,
+    "rating": 4.76,
+    "stock": 43,
+    "brand": "Canon",
+    "category": "cameras",
+    "thumbnail": "https://i.dummyjson.com/data/products/31/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_822322-MLA48551234826_122021-O.webp",
+      "https://i.dummyjson.com/data/products/31/2.jpg",
+      "https://i.dummyjson.com/data/products/31/3.jpg",
+      "https://i.dummyjson.com/data/products/31/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Sony Alpha a6400",
+    "description": "Sony Alpha a6400 Mirrorless Camera with 16-50mm Lens",
+    "price": 899,
+    "discountPercentage": 8.2,
+    "rating": 4.89,
+    "stock": 22,
+    "brand": "Sony",
+    "category": "cameras",
+    "thumbnail": "https://i.dummyjson.com/data/products/32/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_661856-MLA31993477953_082019-O.webp",
+      "https://i.dummyjson.com/data/products/32/2.jpg",
+      "https://i.dummyjson.com/data/products/32/3.jpg",
+      "https://i.dummyjson.com/data/products/32/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Nikon D5600",
+    "description": "Nikon D5600 DSLR Camera with AF-P 18-55mm VR Lens",
+    "price": 699,
+    "discountPercentage": 12.3,
+    "rating": 4.65,
+    "stock": 55,
+    "brand": "Nikon",
+    "category": "cameras",
+    "thumbnail": "https://i.dummyjson.com/data/products/33/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_660321-MLA41501091804_042020-O.webp",
+      "https://i.dummyjson.com/data/products/33/2.jpg",
+      "https://i.dummyjson.com/data/products/33/3.jpg",
+      "https://i.dummyjson.com/data/products/33/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Fujifilm X-T30",
+    "description": "Fujifilm X-T30 Mirrorless Camera with 15-45mm Lens",
+    "price": 799,
+    "discountPercentage": 15.0,
+    "rating": 4.78,
+    "stock": 35,
+    "brand": "Fujifilm",
+    "category": "cameras",
+    "thumbnail": "https://i.dummyjson.com/data/products/34/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_839222-MLA70505189265_072023-O.webp",
+      "https://i.dummyjson.com/data/products/34/2.jpg",
+      "https://i.dummyjson.com/data/products/34/3.jpg",
+      "https://i.dummyjson.com/data/products/34/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Panasonic Lumix FZ80",
+    "description": "Panasonic Lumix FZ80 4K Digital Camera with 18.1 Megapixel Sensor",
+    "price": 349,
+    "discountPercentage": 7.9,
+    "rating": 4.54,
+    "stock": 67,
+    "brand": "Panasonic",
+    "category": "cameras",
+    "thumbnail": "https://i.dummyjson.com/data/products/35/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_959912-MLA42516725356_072020-O.webp",
+      "https://i.dummyjson.com/data/products/35/2.jpg",
+      "https://i.dummyjson.com/data/products/35/3.jpg",
+      "https://i.dummyjson.com/data/products/35/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Dell Inspiron 14 5000",
+    "description": "Dell Inspiron 14 5000 Laptop 11th Gen Core i7, 16GB, 512GB SSD, Intel Xe Graphics, Windows 11",
+    "price": 1199,
+    "discountPercentage": 8.21,
+    "rating": 4.76,
+    "stock": 76,
+    "brand": "Dell",
+    "category": "computers",
+    "thumbnail": "https://i.dummyjson.com/data/products/41/thumbnail.jpeg",
+    "images": [
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTlzifu7t2VMmoPXTwj7fE53b9hsPLmkHNKgdo8fJjA4jkzrNw",
+      "https://i.dummyjson.com/data/products/41/2.jpg",
+      "https://i.dummyjson.com/data/products/41/3.jpg",
+      "https://i.dummyjson.com/data/products/41/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Lenovo Yoga C940",
+    "description": "Lenovo Yoga C940 2-in-1 Laptop 11th Gen Core i5, 12GB, 512GB SSD, Intel Iris Xe Graphics, Windows 10",
+    "price": 1299,
+    "discountPercentage": 10.00,
+    "rating": 4.88,
+    "stock": 64,
+    "brand": "Lenovo",
+    "category": "computers",
+    "thumbnail": "https://i.dummyjson.com/data/products/42/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_731979-MLA49646993614_042022-O.webp",
+      "https://i.dummyjson.com/data/products/42/2.jpg",
+      "https://i.dummyjson.com/data/products/42/3.jpg",
+      "https://i.dummyjson.com/data/products/42/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "ASUS ROG Zephyrus G14",
+    "description": "ASUS ROG Zephyrus G14 Gaming Laptop Ryzen 9, 32GB, 1TB NVMe SSD, RTX 3060 6GB, Windows 11",
+    "price": 1899,
+    "discountPercentage": 15.25,
+    "rating": 4.92,
+    "stock": 42,
+    "brand": "ASUS",
+    "category": "computers",
+    "thumbnail": "https://i.dummyjson.com/data/products/43/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_712122-MLU69511431123_052023-O.webp",
+      "https://i.dummyjson.com/data/products/43/2.jpg",
+      "https://i.dummyjson.com/data/products/43/3.jpg",
+      "https://i.dummyjson.com/data/products/43/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Acer Predator Helios 300",
+    "description": "Acer Predator Helios 300 Gaming Laptop 10th Gen Core i7, 16GB, 1TB SSD, RTX 3070 8GB, Windows 11",
+    "price": 1799,
+    "discountPercentage": 12.50,
+    "rating": 4.80,
+    "stock": 58,
+    "brand": "Acer",
+    "category": "computers",
+    "thumbnail": "https://i.dummyjson.com/data/products/44/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_887095-MLA49933868752_052022-O.webp",
+      "https://i.dummyjson.com/data/products/44/2.jpg",
+      "https://i.dummyjson.com/data/products/44/3.jpg",
+      "https://i.dummyjson.com/data/products/44/thumbnail.jpeg"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Microsoft Surface Laptop 4",
+    "description": "Microsoft Surface Laptop 4 13.5-inch Ryzen 7, 16GB, 512GB SSD, AMD Radeon Graphics, Windows 10",
+    "price": 1599,
+    "discountPercentage": 9.80,
+    "rating": 4.64,
+    "stock": 84,
+    "brand": "Microsoft",
+    "category": "computers",
+    "thumbnail": "https://i.dummyjson.com/data/products/45/thumbnail.jpeg",
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_628542-MLA51738152922_092022-O.webp",
+      "https://i.dummyjson.com/data/products/45/2.jpg",
+      "https://i.dummyjson.com/data/products/45/3.jpg",
+      "https://i.dummyjson.com/data/products/45/thumbnail.jpeg"
+    ]
+  }
+]
