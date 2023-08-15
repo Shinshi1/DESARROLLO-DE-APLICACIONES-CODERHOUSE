@@ -10,20 +10,19 @@ const MyProfile = ({ navigation }) => {
 
   const { localId, profileImage } = useSelector(state => state.userReducer.value)
 
-  /* const {data: image} = useGetProfileImageQuery(localId)
-  cosnt cameraImage = image?.image */
+  const {data: image} = useGetProfileImageQuery(localId)
+  const cameraImage = image?.image
 
   const launchCamera = async () => {
     navigation.navigate('Image Selector')
   }
-  console.log(profileImage)
 
   return (
     <View style={styles.container}>
       <Image
         source={
-          profileImage ?
-            { uri: profileImage }
+          profileImage || cameraImage ?
+            { uri: profileImage || cameraImage }
             : require('../assets/Images/defaultProfile.png')
         }
         style={styles.image}
