@@ -24,7 +24,3 @@ npm run start
 * Website: Gabriel Hidalgo
 * Github: [@Shinshi1](https://github.com/Shinshi1)
 * LinkedIn: [@Gabriel Hidalgo](https://linkedin.com/in/Gabriel Hidalgo)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
