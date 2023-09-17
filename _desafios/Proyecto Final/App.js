@@ -1,6 +1,8 @@
+import 'react-native-get-random-values'
 import { useEffect } from 'react';
 import { useFonts } from 'expo-font';
 import { Provider } from 'react-redux';
+
 
 import Navigator from './src/Navigation/Navigator';
 import store from './src/Store/store';

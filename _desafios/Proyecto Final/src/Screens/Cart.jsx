@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native'
 
 import CartItem from '../Components/CartItem'
@@ -6,14 +6,17 @@ import CartItem from '../Components/CartItem'
 import { font } from '../Global/theme'
 import { useSelector } from 'react-redux'
 import { usePostCartMutation } from '../Services/shopServices'
+import { idGenerator } from '../Utils/idGenerator'
 
 const Cart = () => {
   // const allCartItems = useSelector(state => state.cartReducer.value.items)
-  const { items: cartData, total, updatedAt, user } = useSelector(state => state.cartReducer.value)
+  const { items: cartData, total, user } = useSelector(state => state.cartReducer.value)
   const [triggerPostCart, result] = usePostCartMutation()
 
+  const updatedAt = Date.now()
+
   const confirmCart = () => {
-    triggerPostCart({ items: cartData, total, user, updatedAt })
+    triggerPostCart({ items: cartData, total, user, updatedAt, id: idGenerator() })
   }
   console.log(result)
 
